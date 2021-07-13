@@ -1,0 +1,15 @@
+.main-header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  background: orange;
+  color: white; }
+  .main-header__menu--mobile {
+    background: red; }
+    .main-header__menu--mobile menu {
+      list-style-type: none; }
+
+.main-content {
+  padding-top: 56px; }
+
+/*# sourceMappingURL=main.css.map */
