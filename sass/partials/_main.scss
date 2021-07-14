@@ -1,0 +1,44 @@
+// ------ HEADER ------ //
+
+.main-header {
+    height: 76px;
+    position:fixed;
+    left:0;
+    right:0;
+    background: $naranja;
+    color:white;
+    &__menu--mobile {
+        menu {
+            list-style-type: none;
+        }
+    }
+    &__logo img {
+        height: 34.15px;
+    }
+}
+
+// ------ MAIN CONTENT ------ //
+.main-content {
+    padding-top:76px;
+}
+
+// ----- CAROUSEL ------- //
+#carousel-indicators { 
+    [data-bs-target] {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0);
+    border: 3px solid $violeta;
+    }
+    .active {
+        background-color: $violeta;
+    }
+}
+#carousel-control-prev-icon {
+    background-image: url('../../img/prev-carousel-icon.svg');
+}
+#carousel-control-next-icon {
+    background-image: url('../../img/next-carousel-icon.svg');
+}
+

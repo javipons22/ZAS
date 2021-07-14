@@ -4,28 +4,59 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>ZAS ENVÍOS</title>
 </head>
 <body>
-    <header class="main-header">
+    <header class="main-header d-flex align-items-center">
         <div class="container">
             <div class="row">
-                <div class="main-header__logo col-6 d-flex align-items-center justify-content-start">LOGO</div>
-                <div class="main-header__menu--mobile col-6 d-flex align-items-center justify-content-end">
-                    <menu class="d-flex w-100 justify-content-between">
-                        <li>test</li>
-                        <li>test1</li>
-                        <li>test2</li>
+                <div class="main-header__logo col-7 d-flex align-items-center justify-content-start">
+                    <img src="img/logo.svg" alt="segui tu envío">
+                </div>
+                <div class="main-header__menu--mobile col-5 d-flex align-items-center justify-content-end">
+                    <menu class="d-flex w-100 justify-content-between align-items-center">
+                        <li><img src="img/seguidor-envio.svg" alt="segui tu envío"></li>
+                        <li><img src="img/mi-usuario.svg" alt="segui tu envío"></li>
+                        <li><img src="img/hamb.svg" alt="segui tu envío"></li>
                     </menu>
                 </div>
             </div>
         </div>
     </header>
-    <main class="main-content">lorem5000</main>
+    <main class="main-content">
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators" id="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/banner.svg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/banner.svg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/banner.svg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span id="carousel-control-prev-icon" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span id="carousel-control-next-icon" class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>    
+    </main>
     <footer></footer>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

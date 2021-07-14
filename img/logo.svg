@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100.684" height="34.153" viewBox="0 0 100.684 34.153">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Trazado_1" data-name="Trazado 1" d="M10.634,1.4c-2.914,0-4.653,1.176-5.215,3.937l-.1.46c-.562,2.863.716,3.937,3.63,3.937H19.121L3.987,23.845C1.993,25.634.766,26.708.153,29.673l-.1.46A3.937,3.937,0,0,0,0,30.849H0c0,1.687,1.227,3.221,4.346,3.221H23.211c2.914,0,4.653-1.227,5.215-3.988l.1-.409c.562-2.863-.716-3.988-3.579-3.988h-11.2l15.44-14.06c1.943-1.738,3.221-2.863,3.835-5.777l.1-.511c.409-1.994-.665-3.937-4.295-3.937Z" transform="translate(0.002 -1.4)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="1.021" x2="0.015" y2="1.021" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fafafa"/>
+      <stop offset="0.35" stop-color="#fafafa"/>
+      <stop offset="0.82" stop-color="#efefef"/>
+      <stop offset="0.85" stop-color="#f9f9f9"/>
+      <stop offset="1" stop-color="#f9f9f9"/>
+    </linearGradient>
+    <clipPath id="clip-path-2">
+      <path id="Trazado_2" data-name="Trazado 2" d="M156.039,0c-8.9,0-14.622,4.141-16,10.89s3.63,9.1,8.794,10.225c3.119.716,5.675.716,5.266,2.71s-1.943,2.556-5.01,2.556-5.828-2.556-8.385-2.659A4.4,4.4,0,0,0,136,27.4c-.716,3.425,2.045,6.749,11.555,6.749s15.44-3.988,16.872-11.146c1.227-6.033-3.068-8.794-9.152-10.225-3.272-.767-5.88-.614-5.522-2.505s1.943-2.505,4.857-2.505,5.931,2.1,8.538,2.556,3.323-1.227,3.886-4.09S164.577,0,156.039,0Z" transform="translate(-135.89)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-2.128" y1="1" x2="-2.112" y2="1" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-3">
+      <path id="Trazado_3" data-name="Trazado 3" d="M62.368,56.551a1.074,1.074,0,0,0-.92.511l-.716,1.278c-.511.92,1.789,3.119,4.5,3.119s4.192-1.074,6.033-4.09l.2-.46c.1-.2,0-.409-.2-.409Z" transform="translate(-60.66 -56.5)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="-2.677" y1="1.052" x2="-2.632" y2="1.052" xlink:href="#linear-gradient"/>
+    <clipPath id="clip-path-4">
+      <path id="Trazado_4" data-name="Trazado 4" d="M79.854,3.661,67.175,25.492a1.074,1.074,0,0,0,.869,1.585h17.69a1.074,1.074,0,0,1,1.023.869l.256,1.534c.665,3.63,2.71,4.806,4.806,4.806,3.016,0,6.186-2.3,5.982-3.221l-.767-4.039h1.636a2.147,2.147,0,0,0,1.841-1.074l2.505-4.295a1.278,1.278,0,0,0-1.074-1.892h-22.6l5.368-9.51,1.074,6.34a1.074,1.074,0,0,0,1.023.869h7.056a1.074,1.074,0,0,0,1.023-1.278L92.432,3.661C92.278,2.025,91.358.9,86.808.9s-6.135,1.176-6.953,2.761" transform="translate(-67.044 -0.9)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="-0.924" y1="1.007" x2="-0.91" y2="1.007" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="logo-blanco" transform="translate(50.342 17.076)">
+    <g id="Grupo_5" data-name="Grupo 5" transform="translate(-50.342 -17.076)">
+      <g id="Grupo_1" data-name="Grupo 1" transform="translate(0 0.716)" clip-path="url(#clip-path)">
+        <rect id="Rectángulo_7" data-name="Rectángulo 7" width="33.488" height="32.711" transform="translate(0.001 0)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Grupo_2" data-name="Grupo 2" transform="translate(69.477)" clip-path="url(#clip-path-2)">
+        <rect id="Rectángulo_8" data-name="Rectángulo 8" width="32.363" height="34.127" transform="translate(-0.609)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g id="Grupo_3" data-name="Grupo 3" transform="translate(31.014 28.887)" clip-path="url(#clip-path-3)">
+        <rect id="Rectángulo_9" data-name="Rectángulo 9" width="11.401" height="4.929" transform="translate(-0.491 0.051)" fill="url(#linear-gradient-3)"/>
+      </g>
+      <g id="Grupo_4" data-name="Grupo 4" transform="translate(34.278 0.46)" clip-path="url(#clip-path-4)">
+        <rect id="Rectángulo_10" data-name="Rectángulo 10" width="36.76" height="33.416" transform="translate(-0.329 0)" fill="url(#linear-gradient-4)"/>
+      </g>
+    </g>
+  </g>
+</svg>
