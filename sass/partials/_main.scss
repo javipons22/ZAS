@@ -1,3 +1,4 @@
+
 // ------ HEADER ------ //
 
 .main-header {
@@ -45,6 +46,7 @@
 
 // ----- PASOS (Seccion 2) ------- //
 .titulo-seccion-pasos {
+    font-family: 'Fredoka One', cursive;
     margin: 0.9em 0;
     &__texto {
         margin: 0;
@@ -54,6 +56,7 @@
     }
 }
 .pasos {
+    font-family: 'Fredoka One', cursive;
     &__container {
        
         background-color: $violeta;
@@ -76,11 +79,12 @@
     }
     &__descripcion {
         h2 {
+            
             margin: 0;
             margin-left:7px;
-            font-size: 1.05em;
+            font-size: 1em;
             font-weight: bold;
-            letter-spacing:-0.5px;
+            letter-spacing: 1px;
             line-height: 17px;
             text-align: start;
         }  
@@ -102,3 +106,20 @@
     }
 }
 
+// ----- PRESENTACION (Seccion 3) ------- //
+
+.titulo-seccion-presentacion {
+    font-family: 'Fredoka One', cursive;
+    color: $naranja;
+    h1 {
+        font-size: 5.7vw;
+        margin:0;
+    }
+}
+
+.texto-seccion-presentacion {
+    font-family: 'Montserrat', sans-serif;
+    color: $violeta;
+    text-align: center;
+    line-height: 16px;
+}
