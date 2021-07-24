@@ -45,6 +45,32 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+.splide__track {
+  margin-top: 0.65em;
+  padding-bottom: 2.5em; }
+
+.splide__pagination__page.is-active {
+  background-color: #E55F1F;
+  transform: scale(1.2); }
+
+.splide__pagination__page {
+  background: none;
+  border: 2.5px solid #E55F1F;
+  transform: scale(1.2); }
+
+.titulo-seccion {
+  font-family: 'Fredoka One', cursive;
+  color: #E55F1F; }
+  .titulo-seccion h1 {
+    font-size: 5.7vw;
+    margin: 0; }
+
+.divisor {
+  width: 100vw; }
+  .divisor img {
+    width: 100%;
+    height: 100%; }
+
 .main-header {
   height: 76px;
   position: fixed;
@@ -121,13 +147,6 @@ table {
     letter-spacing: -1px;
     line-height: 17px;
     text-align: start; }
-
-.titulo-seccion-presentacion {
-  font-family: 'Fredoka One', cursive;
-  color: #E55F1F; }
-  .titulo-seccion-presentacion h1 {
-    font-size: 5.7vw;
-    margin: 0; }
 
 .texto-seccion-presentacion {
   font-family: 'Montserrat', sans-serif;
