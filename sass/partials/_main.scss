@@ -123,3 +123,24 @@
     text-align: center;
     line-height: 16px;
 }
+
+// ----- VIDEO (Seccion 4) ------- //
+
+.section-video {
+    padding:20px 0;
+    background: $naranja;
+}
+
+.container-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+  
