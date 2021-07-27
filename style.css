@@ -65,6 +65,10 @@ table {
     font-size: 5.7vw;
     margin: 0; }
 
+.sub-titulo-seccion {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.85em; }
+
 .divisor {
   width: 100vw; }
   .divisor img {
@@ -168,6 +172,32 @@ table {
     left: 0;
     width: 100%;
     height: 100%; }
+
+.section-cobertura {
+  margin-top: 20px;
+  background-color: #683F61;
+  color: #fff; }
+  .section-cobertura__selector {
+    padding: 35px 0; }
+  .section-cobertura .titulo-seccion {
+    color: #fff; }
+  .section-cobertura__img {
+    width: 100%; }
+  .section-cobertura__info {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.5em !important;
+    color: red; }
+
+.section-cobertura-2 {
+  background: #E55F1F;
+  padding: 10px 0; }
+  .section-cobertura-2 h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.85vw;
+    color: #fff; }
+  .section-cobertura-2__googlemap {
+    width: 100%;
+    margin: 7px 0; }
 
 @media (max-width: 500px) {
   .container {
