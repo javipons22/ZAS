@@ -91,13 +91,14 @@
             text-decoration: none;
             border-radius:1em;
             background: $naranja;
-            padding: 7px 35px;
+            padding: 7px 0;
+            width:100%;
             margin:0;
             font-size: 3.5vw;
             font-weight: bold;
             letter-spacing: -1px;
             line-height: 17px;
-            text-align: start;
+            text-align: center;
         }  
     }
 }
