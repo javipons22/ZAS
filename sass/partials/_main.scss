@@ -256,3 +256,37 @@
         }
     }
 }
+
+// ----- TUTORIALES (Seccion 8) ------- //
+
+.section-tutoriales {
+    background: $naranja;
+    .titulo-seccion {
+        color: #fff;
+    }
+    &__cta {
+        a {
+            font-family: 'Fredoka One', cursive;
+            color: $violeta;
+            text-decoration: none;
+            border-radius:1.3em;
+            background: #fff;
+            padding: 10px 15px;
+            margin:0;
+            font-size: 3.5vw;
+            font-weight: bold;
+            letter-spacing: 0px;
+            line-height: 17px;
+            text-align: center;
+        }  
+    }
+}
+
+.divisor-3 {
+    height: 20px;
+    background: $violeta;
+}
+
+.divisor-4 {
+    background: $violeta;
+}
