@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.211" height="43.273" viewBox="0 0 430.211 43.273">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_483" data-name="Rectángulo 483" width="430.211" height="43.273" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Ilustración_65" data-name="Ilustración 65" transform="translate(215.106 21.636)">
+    <g id="Ilustración_65-2" data-name="Ilustración 65" transform="translate(-215.106 -21.637)" clip-path="url(#clip-path)">
+      <path id="Trazado_1773" data-name="Trazado 1773" d="M426.014,17.5,424.1,19.213" transform="translate(3.19 0.132)" fill="none" stroke="#683f61" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.015"/>
+      <path id="Trazado_1774" data-name="Trazado 1774" d="M422.513,22.9c-17.732,11.99-48.26,19.344-83.02,19.344h0c-21.359,0-41.711-2.922-58.738-8.463-29.218-9.471-58.134-13.9-90.979-13.9-23.677,0-50.477,2.217-86.748,7.254a193.545,193.545,0,0,1-26.5,1.914C39.756,29.043,16.683,17.456,5.5,9.9" transform="translate(0.041 0.074)" fill="none" stroke="#683f61" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.015" stroke-dasharray="4.97 5.97"/>
+      <path id="Trazado_1775" data-name="Trazado 1775" d="M3.015,8.212,1,6.6" transform="translate(0.008 0.05)" fill="none" stroke="#683f61" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.015"/>
+      <path id="Trazado_1776" data-name="Trazado 1776" d="M1,0S32.132,32.039,102.357,22.266,224.77,10.377,282.4,29.017c51.182,16.624,126.948,6.851,146.8-18.841V0Z" transform="translate(0.008)" fill="#683f61"/>
+    </g>
+  </g>
+</svg>
