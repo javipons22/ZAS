@@ -326,6 +326,39 @@ table {
   margin: 0 auto;
   transform: rotate(45deg); }
 
+.section-contacto__form {
+  margin-top: 55px; }
+  .section-contacto__form input, .section-contacto__form textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 4px 10px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    color: #E55F1F;
+    font-family: 'Montserrat'; }
+    .section-contacto__form input::-webkit-input-placeholder, .section-contacto__form textarea::-webkit-input-placeholder {
+      /* Edge */
+      color: #E55F1F; }
+    .section-contacto__form input:-ms-input-placeholder, .section-contacto__form textarea:-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #E55F1F; }
+    .section-contacto__form input::placeholder, .section-contacto__form textarea::placeholder {
+      color: #E55F1F; }
+  .section-contacto__form button {
+    font-family: 'Fredoka One', cursive;
+    display: inline-block;
+    border: none;
+    border-radius: 1.3em;
+    margin: 14px 0 35px;
+    padding: 9px 55px;
+    text-decoration: none;
+    background: #E55F1F;
+    color: #ffffff;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none; }
+
 @media (max-width: 500px) {
   .container {
     max-width: 90%; } }
