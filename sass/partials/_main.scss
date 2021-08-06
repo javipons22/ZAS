@@ -374,7 +374,6 @@
 
 .section-contacto {
     &__form {
-        margin-top:55px;
         input, textarea {
             width:100%;
             margin: 5px 0;
@@ -409,6 +408,59 @@
             text-align: center;
             -webkit-appearance: none;
             -moz-appearance: none;
+        }
+    }
+}
+
+// ----- FOOTER (Seccion 11) ------- //
+.footer {
+    &__top {
+        padding-top: 25px;
+        background:$violeta;
+    }
+    &__link {
+        text-align: center;
+        margin: 7px 0;
+        a {
+            text-decoration:none;
+            font-size:1.35em;
+            font-family: 'Montserrat';
+            font-weight:bold;
+            color:#fff;
+            
+            cursor:pointer;
+            &:active {
+                color: $naranja;
+            }
+        }
+    }
+    &__container--2 {
+        padding:35px 0 7px;
+    }
+    .divisor-7 {
+        background: $naranja;
+    }
+    &__bottom {
+        background:$naranja;
+        padding-top: 15px;
+    }
+    &__info {
+        margin-top:15px;
+        color: #fff;
+        font-family: 'Fredoka One', cursive;
+        h5 {
+            margin-top: 5px;
+            text-align: center;
+            font-size: 1.1em;
+        }
+        img {
+            width: 43px;
+            margin: 0 5px;
+        }
+        &--logo {
+            img {
+                width: 145px;
+            }
         }
     }
 }
