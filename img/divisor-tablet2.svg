@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="771.971" height="77.649" viewBox="0 0 771.971 77.649">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_2" data-name="Rectángulo 2" width="771.971" height="77.649" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Ilustración_67" data-name="Ilustración 67" transform="translate(385.986 38.825)">
+    <g id="Grupo_1" data-name="Grupo 1" transform="translate(-385.986 -38.825)" clip-path="url(#clip-path)">
+      <path id="Trazado_1" data-name="Trazado 1" d="M427.535,17.5,424.1,20.573" transform="translate(342.628 14.138)" fill="none" stroke="#e55f1f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.616"/>
+      <path id="Trazado_2" data-name="Trazado 2" d="M753.788,33.222c-31.819,21.514-86.6,34.712-148.971,34.712h0c-38.327,0-74.847-5.243-105.4-15.186C446.988,35.753,395.1,27.8,336.164,27.8c-42.486,0-90.576,3.977-155.66,13.017a347.3,347.3,0,0,1-47.548,3.435C66.968,44.25,25.568,23.459,5.5,9.9" transform="translate(4.443 7.998)" fill="none" stroke="#e55f1f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.616" stroke-dasharray="4.97 5.97"/>
+      <path id="Trazado_3" data-name="Trazado 3" d="M4.616,9.493,1,6.6" transform="translate(0.808 5.332)" fill="none" stroke="#e55f1f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="3.616"/>
+      <path id="Trazado_4" data-name="Trazado 4" d="M1,0S56.864,57.491,182.874,39.954,402.534,18.621,505.945,52.067C597.786,81.9,733.74,64.361,769.355,18.26V0Z" transform="translate(0.808)" fill="#e55f1f"/>
+    </g>
+  </g>
+</svg>

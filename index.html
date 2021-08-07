@@ -23,10 +23,10 @@
     <header class="main-header d-flex align-items-center">
         <div class="container">
             <div class="row">
-                <div class="main-header__logo col-7 d-flex align-items-center justify-content-start">
+                <div class="main-header__logo col-7 col-md-9 d-flex align-items-center justify-content-start">
                     <img src="img/logo.svg" alt="segui tu envío">
                 </div>
-                <div class="main-header__menu--mobile col-5 d-flex align-items-center justify-content-end">
+                <div class="main-header__menu--mobile col-5 col-md-3 d-flex align-items-center justify-content-end">
                     <menu class="d-flex w-100 justify-content-between align-items-center">
                         <li><img src="img/seguidor-envio.svg" alt="segui tu envío"></li>
                         <li><img src="img/mi-usuario.svg" alt="segui tu envío"></li>
@@ -75,7 +75,7 @@
         </div>
         <div class="container-lg pasos">
           <div class="row">
-            <div class="col-12 col-lg-4 pasos__container pasos__container--purple d-flex align-items-center">
+            <div class="col-12 col-lg-4 pasos__container pasos__container--purple d-flex align-items-center justify-content-md-center">
               <div class="row pasos__row d-flex align-items-center">
                 <div class="col-2 pasos__numero d-flex align-items-center  justify-content-center">
                   1
@@ -91,7 +91,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-4 pasos__container pasos__container--orange d-flex align-items-center">
+            <div class="col-12 col-lg-4 pasos__container pasos__container--orange d-flex align-items-center justify-content-md-center">
               <div class="row pasos__row d-flex align-items-center w-100">
                 <div class="col-2 pasos__numero d-flex align-items-center  justify-content-center">
                   2
@@ -104,7 +104,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-4 pasos__container pasos__container--purple d-flex align-items-center">
+            <div class="col-12 col-lg-4 pasos__container pasos__container--purple d-flex align-items-center justify-content-md-center">
               <div class="row pasos__row d-flex align-items-center w-100">
                 <div class="col-2 pasos__numero d-flex align-items-center  justify-content-center">
                   3
@@ -120,7 +120,7 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="d-block d-md-none">
         <div class="container">
           <div class="row">
             <div class="col-12 titulo-seccion d-flex align-items-center justify-content-center my-3">
@@ -137,15 +137,40 @@
       </section>
       
       <div class="divisor-1 divisor">
-        <img src="img/divisor1.svg" alt="divisor">
+        <picture>
+          <source srcset="img/divisor-tablet1.svg"
+                  media="(min-width: 768px)">
+          <img src="img/divisor1.svg" alt="" />
+        </picture>
       </div>
       <section class="section-video">
-        <div class="container container-video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/zbo6jUGrwdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-none d-md-block pr-5">
+              <div class="row">
+                <div class="col-12 titulo-seccion titulo-seccion--tablet d-flex align-items-center justify-content-center my-3 mt-md-0">
+                  <h1>SOMOS ZAS</h1>
+                </div>
+                <div class="col-12 texto-seccion-presentacion texto-seccion-presentacion--tablet">
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate sint quis sunt voluptatem voluptatum fuga voluptate sed porro repellendus deleniti nulla, optio quod reiciendis a velit maiores at atque saepe, facere, possimus laborum. Aperiam, placeat.</p>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolore accusantium sint odit libero vitae natus deserunt ea! Enim cupiditate quidem quisquam necessitatibus sapiente dolor odio praesentium excepturi ad. Repellendus quas cumque natus accusantium eligendi.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-12 container-video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/zbo6jUGrwdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
         </div>
       </section>
       <div class="divisor-2 divisor">
-        <img src="img/divisor2.svg" alt="divisor">
+        <picture>
+          <source srcset="img/divisor-tablet2.svg"
+                  media="(min-width: 768px)">
+          <img src="img/divisor2.svg" alt="" />
+        </picture>
       </div>
       <section>
         <div class="container">
