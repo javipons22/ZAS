@@ -1,5 +1,11 @@
 new Splide( '#splide-marcas', {
 	type   : 'loop',
-	perPage: 3,
-	arrows: false
+	perPage: 6,
+	arrows: false,
+	breakpoints: {
+		767: {
+			perPage: 3,
+			
+		},
+	}
 } ).mount();

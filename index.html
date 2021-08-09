@@ -192,13 +192,19 @@
                       <img src="img/marcas/marca3.svg" alt="MALVA">
                     </li>
                     <li class="splide__slide">
+                      <img src="img/marcas/marca4.svg" alt="MANCHU">
+                    </li>
+                    <li class="splide__slide">
+                      <img src="img/marcas/marca5.svg" alt="O">
+                    </li>
+                    <li class="splide__slide">
+                      <img src="img/marcas/marca6.svg" alt="MALVA">
+                    </li>
+                    <li class="splide__slide">
                       <img src="img/marcas/marca1.svg" alt="MANCHU">
                     </li>
                     <li class="splide__slide">
                       <img src="img/marcas/marca2.svg" alt="O">
-                    </li>
-                    <li class="splide__slide">
-                      <img src="img/marcas/marca3.svg" alt="MALVA">
                     </li>
                   </ul>
                 </div>
@@ -209,17 +215,17 @@
       </section>
       <section class="section-cobertura">
         <div class="container section-cobertura__selector">
-          <div class="row">
+          <div class="row d-flex justify-content-center">
             <div class="col-12 titulo-seccion d-flex align-items-center justify-content-center">
               <h1>COBERTURA</h1>
             </div>
             <div class="col-12 sub-titulo-seccion d-flex align-items-center justify-content-center mt-2">
               <p>Elegí tu área de cobertura</p>
             </div>
-            <div class="col-6 section-cobertura__img  d-flex align-items-center justify-content-center">
+            <div class="col-6 col-md-5 section-cobertura__img  d-flex align-items-center justify-content-center justify-content-md-end mx-md-4">
               <img src="./img/cobertura/ciudad.png" alt="Ciudad de Cordoba">
             </div>
-            <div class="col-6 section-cobertura__img  d-flex align-items-center justify-content-center">
+            <div class="col-6 col-md-5 section-cobertura__img  d-flex align-items-center justify-content-center justify-content-md-start mx-md-4">
               <img src="./img/cobertura/interior.png" alt="Interior de Cordoba">
             </div>
           </div>
@@ -266,7 +272,10 @@
             <div class="col-12 titulo-seccion d-flex align-items-center justify-content-center my-3">
               <h1>TUTORIALES</h1>
             </div>
-            <div class="col-12 container container-video">
+            <div class="col-12 col-md-6 container container-video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/zbo6jUGrwdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-12 col-md-6 d-none d-md-block container container-video">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/zbo6jUGrwdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-12 section-tutoriales__cta d-flex align-items-center justify-content-center mt-4 mb-3">
@@ -276,7 +285,11 @@
         </div>
       </section>
       <div class="divisor-4 divisor">
-        <img src="img/divisor4.svg" alt="divisor">
+        <picture>
+          <source srcset="img/divisor-tablet3.svg"
+                  media="(min-width: 768px)">
+          <img src="img/divisor4.svg" alt="" />
+        </picture>
       </div>
       <section class="section-comentarios">
         <div class="container">
@@ -326,7 +339,11 @@
         </div>
       </section>
       <div class="divisor-5 divisor">
-        <img src="img/divisor5.svg" alt="divisor">
+        <picture>
+          <source srcset="img/divisor-tablet4.svg"
+                  media="(min-width: 768px)">
+          <img src="img/divisor5.svg" alt="" />
+        </picture>
       </div>
       <section class="section-contacto">
         <div class="container">
@@ -335,57 +352,75 @@
               <h1>CONTACTO</h1>
             </div>
             <form action="" class="section-contacto__form">
-              <input type="text" placeholder="NOMBRE">
-              <input type="email" placeholder="EMAIL">
-              <input type="number" placeholder="CELULAR/TELEFONO">
-              <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="MENSAJE"></textarea>
-              <div class="section-contacto__button-container d-flex justify-content-center align-items-center">
-                <button type="submit">ENVIAR</button>
-              </div>     
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <input type="text" placeholder="NOMBRE">
+                  <input type="email" placeholder="EMAIL">
+                  <input type="number" placeholder="CELULAR/TELEFONO">
+                </div>
+                <div class="col-12 col-md-6">
+                  <textarea name="mensaje" id="mensaje" cols="30" rows="5" placeholder="MENSAJE"></textarea>
+                </div>
+                <div class="section-contacto__button-container d-flex justify-content-center align-items-center">
+                  <button type="submit">ENVIAR</button>
+                </div> 
+              </div>
             </form>
           </div>
         </div>
       </section>
       <div class="divisor-6 divisor">
-        <img src="img/divisor6.svg" alt="divisor">
+        <picture>
+          <source srcset="img/divisor-tablet5.svg"
+                  media="(min-width: 768px)">
+          <img src="img/divisor6.svg" alt="" />
+        </picture>
       </div>
       <footer class="footer">
-        <div class="footer__top">
-          <div class="container footer__container--1">
-            <div class="row">
-              <div class="col-12 footer__link">
-                <a href="#">FAQ'S</a>
-              </div>
-              <div class="col-12 footer__link">
-                <a href="#">Condiciones del servicio</a>
-              </div>
-              <div class="col-12 footer__link">
-                <a href="#">Tamaños de envíos</a>
-              </div>
-              <div class="col-12 footer__link">
-                <a href="#">Integraciones</a>
-              </div>
-              <div class="col-12 footer__link">
-                <a href="#">Como funciona el servicio</a>
+        <div class="footer__top d-flex flex-column">
+          <div class="d-md-flex order-md-2">
+            <div class="container footer__container--1">
+              <div class="row d-md-flex justify-content-md-center">
+                <div class="col-12 col-md-2 footer__link">
+                  <a href="#">FAQ'S</a>
+                </div>
+                <div class="col-12 col-md-2 footer__link">
+                  <a href="#">Condiciones del servicio</a>
+                </div>
+                <div class="col-12 col-md-2 footer__link">
+                  <a href="#">Tamaños de envíos</a>
+                </div>
+                <div class="col-12 col-md-2 footer__link">
+                  <a href="#">Integraciones</a>
+                </div>
+                <div class="col-12 col-md-3 footer__link">
+                  <a href="#">Como funciona el servicio</a>
+                </div>
               </div>
             </div>
           </div>
-          <div class="container footer__container--2">
-            <div class="row">
-              <div class="col-12 footer__link">
-                <a href="#">COBERTURA</a>
-              </div>
-              <div class="col-12 footer__link">
-                <a href="#">REGISTRATE</a>
-              </div>
-              <div class="col-12 footer__link">
-                <a href="#">SEGUIMIENTO</a>
+          <div class="d-md-flex order-md-1">
+            <div class="container footer__container--2">
+              <div class="row d-md-flex justify-content-md-center">
+                <div class="col-12 col-md-3 footer__link">
+                  <a href="#">COBERTURA</a>
+                </div>
+                <div class="col-12 col-md-3 footer__link">
+                  <a href="#">REGISTRATE</a>
+                </div>
+                <div class="col-12 col-md-3 footer__link">
+                  <a href="#">SEGUIMIENTO</a>
+                </div>
               </div>
             </div>
           </div>
         </div>  
         <div class="divisor-7 divisor">
-          <img src="img/divisor7.svg" alt="divisor">
+          <picture>
+            <source srcset="img/divisor-tablet6.svg"
+                    media="(min-width: 768px)">
+            <img src="img/divisor7.svg" alt="" />
+          </picture>
         </div> 
         <div class="footer__bottom">
           <div class="container">
@@ -401,23 +436,23 @@
                   </div>
                 </div>
               </div>
-              <div class="footer__info mt-4 col-12 d-flex justify-content-center align-items-center">
+              <div class="footer__info mt-4 mt-md-4 col-12 col-md-6 d-flex justify-content-center align-items-center">
                 <div class="container">
-                  <div class="row d-flex justify-content-center align-items-center">        
-                    <div class="col-12 d-flex justify-content-center">
+                  <div class="row d-flex justify-content-center justify-content-md-end align-items-center">        
+                    <div class="col-12 col-md-2 order-md-2 d-flex justify-content-center">
                       <a href="#"><img src="./img/mail.svg" alt=""></a>
                     </div>
-                    <h5 class="col-12">hola@zas.com.ar</h5>
+                    <h5 class="col-12 col-md-5 mx-md-2 order-md-1">hola@zas.com.ar</h5>
                   </div>
                 </div>
               </div>
-              <div class="footer__info mt-2 col-12 d-flex justify-content-center align-items-center">
+              <div class="footer__info mt-2 mt-md-4 col-12 col-md-6 d-flex justify-content-center align-items-center">
                 <div class="container">
-                  <div class="row d-flex justify-content-center align-items-center">        
-                    <div class="col-12 d-flex justify-content-center">
+                  <div class="row d-flex justify-content-center justify-content-md-start align-items-center">        
+                    <div class="col-12 col-md-1 d-flex justify-content-center">
                       <a href="#"><img src="./img/whatsapp.svg" alt=""></a>
                     </div>
-                    <h5 class="col-12">+54 351 658 4933</h5>
+                    <h5 class="col-12 col-md-6 px-md-0">+54 351 658 4933</h5>
                   </div>
                 </div>
               </div>

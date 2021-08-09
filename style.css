@@ -399,10 +399,10 @@ table {
   .divisor-1 {
     background: #683F61; }
 
-  .container-video {
+  .section-video .container-video {
     position: relative;
     padding-bottom: 32.25%; }
-    .container-video iframe {
+    .section-video .container-video iframe {
       position: absolute;
       top: 55px;
       left: 0;
@@ -419,6 +419,32 @@ table {
     color: #fff; }
 
   .section-video {
-    padding: 0; } }
+    padding: 0; }
+
+  .seccion-seguimiento .container {
+    max-width: 65%; }
+
+  .section-tutoriales .container-video {
+    position: relative;
+    padding-bottom: 32.25%;
+    margin-bottom: 10px; }
+    .section-tutoriales .container-video iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 90%;
+      max-height: 250px;
+      margin: 15px; }
+
+  .footer {
+    font-size: 0.85em; }
+    .footer__container--2 {
+      padding: 0; }
+    .footer__container--1 {
+      padding-top: 15px; }
+    .footer__link a {
+      font-size: 1em; }
+    .footer__top {
+      padding-top: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
