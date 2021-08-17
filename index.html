@@ -65,7 +65,7 @@
               </button>
             </div>
       </section>   
-      <section>
+      <section class="section-pasos my-lg-4">
         <div class="container titulo-seccion-pasos">
           <div class="row">
             <div class="col-12 d-flex justify-content-center">
@@ -74,8 +74,8 @@
           </div>
         </div>
         <div class="container-lg pasos">
-          <div class="row">
-            <div class="col-12 col-lg-4 pasos__container pasos__container--purple d-flex align-items-center justify-content-md-center">
+          <div class="row d-flex flex-lg-nowrap">
+            <div class="col-12 me-lg-2 col-lg-4 pasos__container pasos__container--purple d-flex align-items-center justify-content-md-center">
               <div class="row pasos__row d-flex align-items-center">
                 <div class="col-2 pasos__numero d-flex align-items-center  justify-content-center">
                   1
@@ -83,7 +83,7 @@
                 <div class="col-1 pasos__icono d-flex align-items-center justify-content-center">
                   <img src="img/form-pasos.svg" alt="formulario">
                 </div>
-                <div class="col-5 pasos__descripcion d-flex align-items-center  justify-content-center">
+                <div class="col-5 pasos__descripcion pasos__descripcion--laptop d-flex align-items-center  justify-content-center">
                   <h2>COMPLETÁ EL FORMULARIO <br> DE REGISTRO</h2>
                 </div>
                 <div class="col-4 pasos__cta d-flex align-items-center justify-content-center">
@@ -91,7 +91,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-12 col-lg-4 pasos__container pasos__container--orange d-flex align-items-center justify-content-md-center">
+            <div class="col-12 me-lg-2 col-lg-4 pasos__container pasos__container--orange d-flex align-items-center justify-content-md-center">
               <div class="row pasos__row d-flex align-items-center w-100">
                 <div class="col-2 pasos__numero d-flex align-items-center  justify-content-center">
                   2
@@ -139,7 +139,9 @@
       <div class="divisor-1 divisor">
         <picture>
           <source srcset="img/divisor-tablet1.svg"
-                  media="(min-width: 768px)">
+                  media="(min-width: 768px) and (max-width: 992px)">
+          <source srcset="img/divisor-laptop1.svg"
+                  media="(min-width: 992px)">
           <img src="img/divisor1.svg" alt="" />
         </picture>
       </div>
@@ -168,11 +170,13 @@
       <div class="divisor-2 divisor">
         <picture>
           <source srcset="img/divisor-tablet2.svg"
-                  media="(min-width: 768px)">
+                  media="(min-width: 768px) and (max-width: 992px)">
+          <source srcset="img/divisor-laptop2.svg"
+                  media="(min-width: 992px)">
           <img src="img/divisor2.svg" alt="" />
         </picture>
       </div>
-      <section>
+      <section class="my-4">
         <div class="container">
           <div class="row">
             <div class="col-12 titulo-seccion d-flex align-items-center justify-content-center my-3">
@@ -213,34 +217,46 @@
           </div>
         </div>
       </section>
-      <section class="section-cobertura">
-        <div class="container section-cobertura__selector">
-          <div class="row d-flex justify-content-center">
-            <div class="col-12 titulo-seccion d-flex align-items-center justify-content-center">
-              <h1>COBERTURA</h1>
-            </div>
-            <div class="col-12 sub-titulo-seccion d-flex align-items-center justify-content-center mt-2">
-              <p>Elegí tu área de cobertura</p>
-            </div>
-            <div class="col-6 col-md-5 section-cobertura__img  d-flex align-items-center justify-content-center justify-content-md-end mx-md-4">
-              <img src="./img/cobertura/ciudad.png" alt="Ciudad de Cordoba">
-            </div>
-            <div class="col-6 col-md-5 section-cobertura__img  d-flex align-items-center justify-content-center justify-content-md-start mx-md-4">
-              <img src="./img/cobertura/interior.png" alt="Interior de Cordoba">
-            </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-lg-6 p-sm-0 p-0 section-cobertura-container">
+            <section class="section-cobertura d-flex align-items-center">
+              <div class="container section-cobertura__selector">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-12 titulo-seccion d-flex align-items-center justify-content-center">
+                    <h1>COBERTURA</h1>
+                  </div>
+                  <div class="col-12 sub-titulo-seccion d-flex align-items-center justify-content-center mt-2">
+                    <p>Elegí tu área de cobertura</p>
+                  </div>
+                  <div class="col-6 col-md-5 col-lg-4 section-cobertura__img  d-flex align-items-center justify-content-center justify-content-md-end mx-md-4">
+                    <img src="./img/cobertura/ciudad.png" alt="Ciudad de Cordoba">
+                  </div>
+                  <div class="col-6 col-md-5 col-lg-4 section-cobertura__img  d-flex align-items-center justify-content-center justify-content-md-start mx-md-4">
+                    <img src="./img/cobertura/interior.png" alt="Interior de Cordoba">
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="col-12 col-lg-6 p-sm-0 p-0">
+            <section class="section-cobertura-2 overflow-lg-hidden">
+              <div class="container d-lg-none py-lg-0 my-lg-0">
+                <div class="row">
+                  <div class="col-12 d-flex align-items-center justify-content-center">
+                    <h5>O usa el mapa para chequear la cobertura</h5>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 section-cobertura-2__container">
+                <iframe class="section-cobertura-2__googlemap" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13628.887253291272!2d-64.25217675!3d-31.3528577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1627353924529!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+            </section>
           </div>
         </div>
-      </section>
-      <section class="section-cobertura-2">
-        <div class="container">
-          <div class="row">
-            <div class="col-12 d-flex align-items-center justify-content-center">
-              <h5>O usa el mapa para chequear la cobertura</h5>
-            </div>
-          </div>
-        </div>
-        <iframe class="section-cobertura-2__googlemap" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13628.887253291272!2d-64.25217675!3d-31.3528577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1627353924529!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-      </section>
+      </div>
+     
+      
       <section class="seccion-seguimiento py-4">
         <div class="container">
           <div class="row">

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1927.735" height="39.408" viewBox="0 0 1927.735 39.408">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_826" data-name="Rectángulo 826" width="1927.735" height="39.408" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Ilustración_71" data-name="Ilustración 71" transform="translate(963.867 19.704)">
+    <g id="Grupo_601" data-name="Grupo 601" transform="translate(-963.867 -19.704)" clip-path="url(#clip-path)">
+      <path id="Trazado_4494" data-name="Trazado 4494" d="M1,24.1H3.509" transform="translate(0.004 0.084)" fill="none" stroke="#e55f1f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.007"/>
+      <path id="Trazado_4495" data-name="Trazado 4495" d="M9.5,24.482c33.116.9,65.027,1.505,92.122,1.505h0c91.219,0,137.982-5.118,192.272-11.039C353.1,8.326,420.135,1,553,1,696.9,1,768.552,7.222,837.794,13.243c63.121,5.519,122.729,10.637,238.132,10.637,125.137,0,191.569-4.817,255.794-9.533,58-4.215,117.912-8.53,215.854-8.731h6.623c199.8,0,320.62,17.461,367.183,25.89" transform="translate(0.033 0.004)" fill="none" stroke="#e55f1f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.007" stroke-dasharray="4.99 5.99"/>
+      <path id="Trazado_4496" data-name="Trazado 4496" d="M1917.6,32l2.509.5" transform="translate(6.723 0.112)" fill="none" stroke="#e55f1f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2.007"/>
+      <path id="Trazado_4497" data-name="Trazado 4497" d="M1926.728,39.417s-123.933-29.2-379.024-28.7c-200,.4-228,18.264-471.848,18.264C830.3,28.88,825.179,6,553.229,6,274.355,6,307.671,38.614,1,29.281V39.417Z" transform="translate(0.004 0.021)" fill="#e55f1f"/>
+    </g>
+  </g>
+</svg>
