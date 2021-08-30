@@ -2,6 +2,7 @@ new Splide( '#splide-marcas', {
 	type   : 'loop',
 	perPage: 8,
 	arrows: false,
+	autoplay: true,
 	breakpoints: {
 		767: {
 			perPage: 3,

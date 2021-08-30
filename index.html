@@ -22,15 +22,26 @@
 <body>
     <header class="main-header d-flex align-items-center">
         <div class="container">
-            <div class="row">
-                <div class="main-header__logo col-7 col-md-9 d-flex align-items-center justify-content-start">
+            <div class="row d-lg-flex justify-content-lg-between">
+                <div class="main-header__logo col-7 col-md-9 col-lg-2 d-flex align-items-center justify-content-start">
                     <img src="img/logo.svg" alt="segui tu envío">
                 </div>
-                <div class="main-header__menu--mobile col-5 col-md-3 d-flex align-items-center justify-content-end">
-                    <menu class="d-flex w-100 justify-content-between align-items-center">
-                        <li><img src="img/seguidor-envio.svg" alt="segui tu envío"></li>
-                        <li><img src="img/mi-usuario.svg" alt="segui tu envío"></li>
-                        <li><img src="img/hamb.svg" alt="segui tu envío"></li>
+                <div class="main-header__menu--laptop col-5 col-md-3 col-lg-7 d-none d-lg-flex align-items-center justify-content-around">
+                  <menu class="d-flex w-100 justify-content-between align-items-center">
+                      <li>QUIENES SOMOS</li>
+                      <li>REGISTRARSE</li>
+                      <li>COBERTURA</li>
+                      <li>CONTACTO</li>
+                  </menu>
+                </div>
+                <div class="main-header__menu--mobile col-5 col-md-3 col-lg-2 d-flex align-items-center justify-content-end">
+                    <menu class="d-flex w-100 justify-content-between align-items-center justify-content-lg-end">
+                        <li class="main-header__boton-seguimiento">
+                          <img src="img/seguidor-envio.svg" alt="segui tu envío">
+                          <span class="d-none d-lg-block">SEGUIMIENTO</span>
+                        </li>
+                        <li class="d-lg-none"><img src="img/mi-usuario.svg" alt="segui tu envío"></li>
+                        <li class="d-lg-none"><img src="img/hamb.svg" alt="segui tu envío"></li>
                     </menu>
                 </div>
             </div>
@@ -48,12 +59,12 @@
                 <div class="carousel-item active">
                   <img src="img/banner.svg" class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item">
-                  <img src="img/banner.svg" class="d-block w-100" alt="...">
+                <!-- <div class="carousel-item">
+                  <img src="img/banners/banner2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                  <img src="img/banner.svg" class="d-block w-100" alt="...">
-                </div>
+                  <img src="img/banners/banner3.jpg" class="d-block w-100" alt="...">
+                </div> -->
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span id="carousel-control-prev-icon" class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -69,7 +80,7 @@
         <div class="container titulo-seccion-pasos">
           <div class="row">
             <div class="col-12 d-flex justify-content-center">
-              <h1 class="titulo-seccion-pasos__texto">HACÉ TU ENVÍO EN 3 PASOS</h1>
+              <h1 class="titulo-seccion-pasos__texto">SUMATE A LA COMUNIDAD ZAS EN 3 PASOS</h1>
             </div>
           </div>
         </div>
@@ -84,10 +95,10 @@
                   <img src="img/form-pasos.svg" alt="formulario">
                 </div>
                 <div class="col-5 pasos__descripcion pasos__descripcion--laptop d-flex align-items-center  justify-content-center">
-                  <h2>COMPLETÁ EL FORMULARIO <br> DE REGISTRO</h2>
+                  <h2>COMPLETÁ EL FORMULARIO</h2>
                 </div>
                 <div class="col-4 pasos__cta d-flex align-items-center justify-content-center">
-                  <a href="http://google.com">MÁS INFO</a>
+                  <a href="https://forms.gle/Wru2raz4ZTXxBVQR6">MÁS INFO</a>
                 </div>
               </div>
             </div>
@@ -127,9 +138,11 @@
               <h1>SOMOS ZAS</h1>
             </div>
             <div class="col-12 texto-seccion-presentacion">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate sint quis sunt voluptatem voluptatum fuga voluptate sed porro repellendus deleniti nulla, optio quod reiciendis a velit maiores at atque saepe, facere, possimus laborum. Aperiam, placeat.</p>
+              <p>Somos  Zas, especialistas en envíos rápidos en la última milla, apostamos al Ecommerce 4.0 ofreciendo entregas en el día.
+                Nos motiva trabajar con aquellos emprendedores y empresas que venden online y buscan la excelencia en la entrega de sus productos.
+                </p>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolore accusantium sint odit libero vitae natus deserunt ea! Enim cupiditate quidem quisquam necessitatibus sapiente dolor odio praesentium excepturi ad. Repellendus quas cumque natus accusantium eligendi.
+                Desarrollamos nuestra tecnología con el objetivo de convertirnos en un aliado de nuestros clientes, que le permita a nuestros clientes hacer crecer su negocio optimizando los tiempos de gestión operativa, el nivel de servicio y los tiempos de entrega.
               </p>
             </div>
           </div>
@@ -154,15 +167,17 @@
                   <h1>SOMOS ZAS</h1>
                 </div>
                 <div class="col-12 texto-seccion-presentacion texto-seccion-presentacion--tablet">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate sint quis sunt voluptatem voluptatum fuga voluptate sed porro repellendus deleniti nulla, optio quod reiciendis a velit maiores at atque saepe, facere, possimus laborum. Aperiam, placeat.</p>
+                  <p>Somos  Zas, especialistas en envíos rápidos en la última milla, apostamos al Ecommerce 4.0 ofreciendo entregas en el día.
+                    Nos motiva trabajar con aquellos emprendedores y empresas que venden online y buscan la excelencia en la entrega de sus productos.
+                    </p>
                   <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus dolore accusantium sint odit libero vitae natus deserunt ea! Enim cupiditate quidem quisquam necessitatibus sapiente dolor odio praesentium excepturi ad. Repellendus quas cumque natus accusantium eligendi.
+                    Desarrollamos nuestra tecnología con el objetivo de convertirnos en un aliado de nuestros clientes, que le permita a nuestros clientes hacer crecer su negocio optimizando los tiempos de gestión operativa, el nivel de servicio y los tiempos de entrega.
                   </p>
                 </div>
               </div>
             </div>
             <div class="col-md-6 col-12 container-video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/zbo6jUGrwdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/f63EkpqWs1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
         </div>
@@ -249,7 +264,7 @@
                 </div>
               </div>
               <div class="col-12 section-cobertura-2__container">
-                <iframe class="section-cobertura-2__googlemap" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13628.887253291272!2d-64.25217675!3d-31.3528577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sar!4v1627353924529!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe class="section-cobertura-2__googlemap" src="https://www.google.com/maps/d/embed?mid=1-Ivmr-vkRxClAGlCtvMYesWFuy4UYb9c" width="640" height="480"></iframe>
               </div>
             </section>
           </div>
@@ -288,13 +303,16 @@
             <div class="col-12 titulo-seccion d-flex align-items-center justify-content-center my-3">
               <h1>TUTORIALES</h1>
             </div>
-            <div class="col-12 col-md-6 container container-video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/zbo6jUGrwdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-12 col-md-6 col-lg-4 container container-video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/f63EkpqWs1c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-12 col-md-6 d-none d-md-block container container-video">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/zbo6jUGrwdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="col-12 col-md-6 col-lg-4 d-none d-md-block container container-video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/1Fj0yyT7uJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col-12 section-tutoriales__cta d-flex align-items-center justify-content-center mt-4 mb-3">
+            <div class="col-12 col-md-6 col-lg-4 d-none d-lg-block container container-video">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/VLubJk9k67U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="col-12 section-tutoriales__cta d-flex align-items-center justify-content-center mt-4 mb-3 mb-lg-5">
               <a href="http://google.com">MÁS TUTORIALES</a>
             </div>
           </div>
@@ -303,7 +321,9 @@
       <div class="divisor-4 divisor">
         <picture>
           <source srcset="img/divisor-tablet3.svg"
-                  media="(min-width: 768px)">
+                  media="(min-width: 768px) and (max-width: 992px)">
+          <source srcset="img/divisor-laptop3.svg"
+                  media="(min-width: 992px)">
           <img src="img/divisor4.svg" alt="" />
         </picture>
       </div>
@@ -322,23 +342,37 @@
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              </div>
             <div class="carousel-inner">
               <div class="carousel-item carousel-item-2 active ">
                 <div class="carousel-item-content">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus earum totam assumenda! Expedita, dignissimos corporis.</p>
+                  <p>
+                    Excelente! Siempre las recomiendo </p>
               
                 </div>
               </div>
               <div class="carousel-item carousel-item-2">
                 <div class="carousel-item-content">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus earum totam assumenda! Expedita, dignissimos corporis.</p>
+                  <p>Servicio profesional y nos agilizó mucha la operativa diaria. El sistema funciona super bien y las entregas las realizan en el día. Los recomiendo.</p>
+                </div>
+              </div>
+              <div class="carousel-item carousel-item-2">
+                <div class="carousel-item-content">
+                  <p>Excelente atención y entregas re rapidas! Volveré a usar ZAS!</p>
               
                 </div>
               </div>
               <div class="carousel-item carousel-item-2">
                 <div class="carousel-item-content">
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus earum totam assumenda! Expedita, dignissimos corporis.</p>
+                  <p>Lo usamos para el envío de documentación a nuestros clientes principalmente por la seriedad y la confianza.</p>
+              
+                </div>
+              </div>
+              <div class="carousel-item carousel-item-2">
+                <div class="carousel-item-content">
+                  <p>Desde que empezamos a trabajar con ZAS nos ayudó a organizar todo el proceso de venta online. Son muy serios y cumplidores, somos clientes desde el comienzo y el servicio ha sido siempre excelente.</p>
               
                 </div>
               </div>
@@ -357,7 +391,9 @@
       <div class="divisor-5 divisor">
         <picture>
           <source srcset="img/divisor-tablet4.svg"
-                  media="(min-width: 768px)">
+                  media="(min-width: 768px) and (max-width: 992px)">
+          <source srcset="img/divisor-laptop4.svg"
+                  media="(min-width: 992px)">
           <img src="img/divisor5.svg" alt="" />
         </picture>
       </div>
@@ -388,7 +424,9 @@
       <div class="divisor-6 divisor">
         <picture>
           <source srcset="img/divisor-tablet5.svg"
-                  media="(min-width: 768px)">
+                  media="(min-width: 768px) and (max-width: 992px)">
+          <source srcset="img/divisor-laptop5.svg"
+                  media="(min-width: 992px)">
           <img src="img/divisor6.svg" alt="" />
         </picture>
       </div>
@@ -422,7 +460,7 @@
                   <a href="#">COBERTURA</a>
                 </div>
                 <div class="col-12 col-md-3 footer__link">
-                  <a href="#">REGISTRATE</a>
+                  <a href="https://forms.gle/Wru2raz4ZTXxBVQR6">REGISTRATE</a>
                 </div>
                 <div class="col-12 col-md-3 footer__link">
                   <a href="#">SEGUIMIENTO</a>
@@ -434,7 +472,9 @@
         <div class="divisor-7 divisor">
           <picture>
             <source srcset="img/divisor-tablet6.svg"
-                    media="(min-width: 768px)">
+                  media="(min-width: 768px) and (max-width: 992px)">
+          <source srcset="img/divisor-laptop6.svg"
+                  media="(min-width: 992px)">
             <img src="img/divisor7.svg" alt="" />
           </picture>
         </div> 
@@ -458,7 +498,7 @@
                     <div class="col-12 col-md-2 order-md-2 d-flex justify-content-center">
                       <a href="#"><img src="./img/mail.svg" alt=""></a>
                     </div>
-                    <h5 class="col-12 col-md-5 mx-md-2 order-md-1">hola@zas.com.ar</h5>
+                    <h5 class="col-12 col-md-5 col-lg-3 mx-md-2 mx-lg-4 order-md-1">hola@zas.com.ar</h5>
                   </div>
                 </div>
               </div>
@@ -468,7 +508,7 @@
                     <div class="col-12 col-md-1 d-flex justify-content-center">
                       <a href="#"><img src="./img/whatsapp.svg" alt=""></a>
                     </div>
-                    <h5 class="col-12 col-md-6 px-md-0">+54 351 658 4933</h5>
+                    <h5 class="col-12 col-md-6 col-lg-4 px-md-0">+54 351 658 4933</h5>
                   </div>
                 </div>
               </div>
