@@ -548,5 +548,42 @@ table {
   .main-header__boton-seguimiento {
     font-size: 10px;
     text-align: center; } }
+@media (min-width: 1200px) {
+  .pasos__cta {
+    font-size: 1em; }
+  .pasos__descripcion--laptop h2 {
+    font-size: 1em; }
+
+  .divisor-1 {
+    position: relative;
+    height: 38px;
+    width: 100%; }
+    .divisor-1 img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 7px;
+      width: 100%; }
+
+  .section-video {
+    padding: 35px 0; }
+    .section-video .container-video {
+      position: relative;
+      padding-bottom: 20.25%; }
+      .section-video .container-video iframe {
+        top: 10px; }
+
+  .section-cobertura__img img {
+    width: 85%; }
+
+  .titulo-seccion {
+    font-size: 1.25em; }
+    .titulo-seccion-pasos__texto {
+      font-size: 1.7em; }
+
+  .texto-seccion-presentacion {
+    font-size: 1.1em;
+    line-height: 1.2em; } }
 
 /*# sourceMappingURL=style.css.map */
