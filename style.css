@@ -554,11 +554,11 @@ table {
   .pasos__descripcion--laptop h2 {
     font-size: 1em; }
 
-  .divisor-1 {
+  .divisor-1, .divisor-6 {
     position: relative;
     height: 38px;
     width: 100%; }
-    .divisor-1 img {
+    .divisor-1 img, .divisor-6 img {
       position: absolute;
       left: 0;
       right: 0;
