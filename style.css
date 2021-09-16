@@ -370,6 +370,8 @@ table {
     cursor: pointer; }
     .footer__link a:active {
       color: #E55F1F; }
+    .footer__link a:hover {
+      color: #E55F1F; }
 .footer__container--2 {
   padding: 35px 0 7px; }
 .footer .divisor-7 {
@@ -554,17 +556,20 @@ table {
   .pasos__descripcion--laptop h2 {
     font-size: 1em; }
 
-  .divisor-1, .divisor-6 {
+  .divisor {
     position: relative;
-    height: 38px;
+    height: 35px;
     width: 100%; }
-    .divisor-1 img, .divisor-6 img {
+    .divisor img {
       position: absolute;
       left: 0;
       right: 0;
       bottom: 0;
       top: 7px;
       width: 100%; }
+
+  .divisor-2 img, .divisor-4 img, .divisor-5 img, .divisor-7 img {
+    top: -5px; }
 
   .section-video {
     padding: 35px 0; }
@@ -585,5 +590,26 @@ table {
   .texto-seccion-presentacion {
     font-size: 1.1em;
     line-height: 1.2em; } }
+@media (min-width: 1441px) {
+  .divisor {
+    position: relative;
+    height: 55px;
+    width: 100%; }
+    .divisor img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 7px;
+      width: 100%; }
+
+  .divisor-2 img, .divisor-4 img, .divisor-5 img, .divisor-7 img {
+    top: -5px; }
+
+  .section-cobertura__img img {
+    width: 60%; }
+
+  .section-cobertura__selector {
+    margin-top: 90px; } }
 
 /*# sourceMappingURL=style.css.map */

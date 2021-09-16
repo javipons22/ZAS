@@ -11,6 +11,8 @@ new Splide( '#splide-marcas', {
 		991: {
 			perPage: 6
 		},
-
+		1024: {
+			perPage: 6
+		}
 	}
 } ).mount();

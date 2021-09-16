@@ -1,0 +1,31 @@
+@media (min-width: 1441px) {
+    .divisor {
+        position:relative;
+        height:55px;
+        width:100%;
+        img {
+            position:absolute;
+            left: 0;
+            right: 0; 
+            bottom: 0;
+            top:7px; 
+            width:100%;
+        }
+    }
+    .divisor-2,.divisor-4,.divisor-5,.divisor-7 {
+        img {
+            top:-5px;
+        }
+    }
+    .section-cobertura {
+        &__img {
+            img {
+                width:60%;
+            }
+            
+        }
+    }
+    .section-cobertura__selector {
+        margin-top:90px;
+    }
+}
