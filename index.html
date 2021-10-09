@@ -51,6 +51,7 @@
                       <a href="#contacto"><li>CONTACTO</li></a>
                   </menu>               
                 </div>
+                
                 <div class="main-header__menu--mobile col-5 col-md-3 col-lg-2 d-flex align-items-center justify-content-end">
                     <menu class="d-flex w-100 justify-content-between align-items-center justify-content-lg-end">
                       <a href="#seguimiento" class="main-header__link">
@@ -59,13 +60,24 @@
                           <span class="d-none d-lg-block">SEGUIMIENTO</span>
                         </li>
                       </a>
-                        <li class="d-lg-none"><img src="img/mi-usuario.svg" alt="segui tu envío"></li>
-                        <li class="d-lg-none"><img src="img/hamb.svg" alt="segui tu envío"></li>
+                      <li class="d-lg-none"><img src="img/mi-usuario.svg" alt="segui tu envío"></li>
+                      <a class="d-lg-none main-header__link main-header__link--menu-mobile">
+                        <li><img src="img/hamb.svg" alt="segui tu envío"></li>
+                      </a>
                     </menu>
                 </div>
             </div>
         </div>
     </header>
+    <div class="main-header__menu--mobileabsolute">
+      <div class="close-button">x</div>
+      <menu class="d-flex w-100 flex-column justify-content-between align-items-center">
+          <a href="#quienes-somos"><li>QUIENES SOMOS</li></a>
+          <a target="_blank" href="https://forms.gle/Wru2raz4ZTXxBVQR6"><li>REGISTRARSE</li></a>
+          <a href="#cobertura"><li>COBERTURA</li></a>
+          <a href="#contacto"><li>CONTACTO</li></a>
+      </menu>               
+    </div>
     <main class="main-content">
       <section>
           <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
@@ -282,7 +294,7 @@
             </div> -->
             <div class="col-12 d-flex align-items-center justify-content-center">
               <form class="form-seguimiento w-100" action="https://www.boxtracked.com/bt/app/tracking/consultar_envio/" method="GET" target="_blank">
-                <input class="form-seguimiento__input w-100 mt-4" type="text" name="n" type="text" id="codigo-seguimiento" placeholder="Ingresa aquí tu número de seguimiento">
+                <input class="form-seguimiento__input w-100 mt-4" type="text" name="n" type="text" required id="codigo-seguimiento" placeholder="Ingresa aquí tu número de seguimiento">
                 <label class="d-flex align-items-center justify-content-center mt-4">
                   <div class="form-seguimiento__boton d-flex align-items-center justify-content-center">
                     <input class="d-none" type="submit" name="image" value="one">
@@ -497,7 +509,7 @@
                 <div class="container">
                   <div class="row d-flex justify-content-center justify-content-md-end align-items-center">        
                     <div class="col-12 col-md-2 order-md-2 d-flex justify-content-center">
-                      <a href="#"><img src="./img/mail.svg" alt=""></a>
+                      <a href="mailto:hola@zas.com.ar"><img src="./img/mail.svg" alt=""></a>
                     </div>
                     <h5 class="col-12 col-md-5 col-lg-3 col-xl-2 mx-md-2 mx-lg-4 mx-xl-3 order-md-1">hola@zas.com.ar</h5>
                   </div>
@@ -507,7 +519,7 @@
                 <div class="container">
                   <div class="row d-flex justify-content-center justify-content-md-start align-items-center">        
                     <div class="col-12 col-md-1 d-flex justify-content-center">
-                      <a href="#"><img src="./img/whatsapp.svg" alt=""></a>
+                      <a href="https://wa.me/+543516584933/?text=Hola+ZAS!"><img src="./img/whatsapp.svg" alt=""></a>
                     </div>
                     <h5 class="col-12 col-md-6 col-lg-4 col-xl-3 px-md-0">+54 351 658 4933</h5>
                   </div>
@@ -535,13 +547,12 @@
       </a>
     </div>
     <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
+  src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Splide slider -->
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="js/app.js"></script>
     <script src="js/marcas.js"></script>
     <script src="js/splide.js"></script>
 </body>
