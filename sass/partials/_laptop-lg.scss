@@ -9,24 +9,7 @@
             }
         }
     }
-    .divisor {
-        position:relative;
-        height:35px;
-        width:100%;
-        img {
-            position:absolute;
-            left: 0;
-            right: 0; 
-            bottom: 0;
-            top:7px; 
-            width:100%;
-        }
-    }
-    .divisor-2,.divisor-4,.divisor-5,.divisor-7 {
-        img {
-            top:-5px;
-        }
-    }
+    
     
     .section-video {
         padding: 35px 0;

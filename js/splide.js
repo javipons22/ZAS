@@ -1,6 +1,6 @@
 new Splide( '#splide-marcas', {
 	type   : 'loop',
-	perPage: 9,
+	perPage: 6,
 	arrows: false,
 	autoplay: true,
 	breakpoints: {

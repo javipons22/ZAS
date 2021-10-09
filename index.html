@@ -10,14 +10,31 @@
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- Splide JS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@2.4.21/dist/css/themes/splide-skyblue.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.0.9/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.0.9/dist/css/themes/splide-skyblue.min.css">
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./img/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     
     
-    <title>ZAS ENVÍOS</title>
+    <title>ZAS Envíos</title>
 </head>
 <body>
     <header class="main-header d-flex align-items-center">
@@ -28,18 +45,20 @@
                 </div>
                 <div class="main-header__menu--laptop col-5 col-md-3 col-lg-7 d-none d-lg-flex align-items-center justify-content-around">
                   <menu class="d-flex w-100 justify-content-between align-items-center">
-                      <li>QUIENES SOMOS</li>
-                      <li>REGISTRARSE</li>
-                      <li>COBERTURA</li>
-                      <li>CONTACTO</li>
-                  </menu>
+                      <a href="#quienes-somos"><li>QUIENES SOMOS</li></a>
+                      <a target="_blank" href="https://forms.gle/Wru2raz4ZTXxBVQR6"><li>REGISTRARSE</li></a>
+                      <a href="#cobertura"><li>COBERTURA</li></a>
+                      <a href="#contacto"><li>CONTACTO</li></a>
+                  </menu>               
                 </div>
                 <div class="main-header__menu--mobile col-5 col-md-3 col-lg-2 d-flex align-items-center justify-content-end">
                     <menu class="d-flex w-100 justify-content-between align-items-center justify-content-lg-end">
+                      <a href="#seguimiento" class="main-header__link">
                         <li class="main-header__boton-seguimiento">
                           <img src="img/seguidor-envio.svg" alt="segui tu envío">
                           <span class="d-none d-lg-block">SEGUIMIENTO</span>
                         </li>
+                      </a>
                         <li class="d-lg-none"><img src="img/mi-usuario.svg" alt="segui tu envío"></li>
                         <li class="d-lg-none"><img src="img/hamb.svg" alt="segui tu envío"></li>
                     </menu>
@@ -49,28 +68,28 @@
     </header>
     <main class="main-content">
       <section>
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div id="carousel1" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators" id="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="img/banner.svg" class="d-block w-100" alt="...">
                 </div>
-                <!-- <div class="carousel-item">
+                <div class="carousel-item">
                   <img src="img/banners/banner2.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
                   <img src="img/banners/banner3.jpg" class="d-block w-100" alt="...">
-                </div> -->
+                </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
                 <span id="carousel-control-prev-icon" class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
                 <span id="carousel-control-next-icon" class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
@@ -98,7 +117,7 @@
                   <h2>COMPLETÁ EL FORMULARIO</h2>
                 </div>
                 <div class="col-4 pasos__cta d-flex align-items-center justify-content-center">
-                  <a href="https://forms.gle/Wru2raz4ZTXxBVQR6">MÁS INFO</a>
+                  <a target="_blank" href="https://forms.gle/Wru2raz4ZTXxBVQR6">MÁS INFO</a>
                 </div>
               </div>
             </div>
@@ -148,7 +167,7 @@
           </div>
         </div>
       </section>
-      
+      <a id="quienes-somos"></a>
       <div class="divisor-1 divisor">
         <picture>
           <source srcset="img/divisor-tablet1.svg"
@@ -200,31 +219,8 @@
             <div class="col-12">
               <div class="splide" id="splide-marcas">
                 <div class="splide__track">
-                  <ul class="splide__list">
-                    <li class="splide__slide">
-                      <img src="img/marcas/marca1.svg" alt="MANCHU">
-                    </li>
-                    <li class="splide__slide">
-                      <img src="img/marcas/marca2.svg" alt="O">
-                    </li>
-                    <li class="splide__slide">
-                      <img src="img/marcas/marca3.svg" alt="MALVA">
-                    </li>
-                    <li class="splide__slide">
-                      <img src="img/marcas/marca4.svg" alt="MANCHU">
-                    </li>
-                    <li class="splide__slide">
-                      <img src="img/marcas/marca5.svg" alt="O">
-                    </li>
-                    <li class="splide__slide">
-                      <img src="img/marcas/marca6.svg" alt="MALVA">
-                    </li>
-                    <li class="splide__slide">
-                      <img src="img/marcas/marca1.svg" alt="MANCHU">
-                    </li>
-                    <li class="splide__slide">
-                      <img src="img/marcas/marca2.svg" alt="O">
-                    </li>
+                  <ul class="splide__list marcas__container">
+                    <!-- Populated in js/marcas.js -->
                   </ul>
                 </div>
               </div>
@@ -232,12 +228,14 @@
           </div>
         </div>
       </section>
+      <a id="cobertura"></a>
       <div class="container-fluid">
         <div class="row">
           <div class="col-12 col-lg-6 p-sm-0 p-0 section-cobertura-container">
             <section class="section-cobertura d-flex align-items-center">
               <div class="container section-cobertura__selector">
                 <div class="row d-flex justify-content-center mt-xl-4">
+                  <a id="seguimiento"></a>
                   <div class="col-12 titulo-seccion d-flex align-items-center justify-content-center">
                     <h1>COBERTURA</h1>
                   </div>
@@ -269,8 +267,9 @@
             </section>
           </div>
         </div>
+        
       </div>
-     
+      
       
       <section class="seccion-seguimiento py-4 py-xl-5">
         <div class="container">
@@ -278,9 +277,9 @@
             <div class="col-12 titulo-seccion d-flex align-items-center justify-content-center">
               <h1>SEGUIME, SOY TU ENVIO!!!</h1>
             </div>
-            <div class="col-12 sub-titulo-seccion d-flex align-items-center justify-content-center mt-4">
+            <!-- <div class="col-12 sub-titulo-seccion d-flex align-items-center justify-content-center mt-4">
               <p class="text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates, minima.</p>
-            </div>
+            </div> -->
             <div class="col-12 d-flex align-items-center justify-content-center">
               <form class="form-seguimiento w-100" action="https://www.boxtracked.com/bt/app/tracking/consultar_envio/" method="GET" target="_blank">
                 <input class="form-seguimiento__input w-100 mt-4" type="text" name="n" type="text" id="codigo-seguimiento" placeholder="Ingresa aquí tu número de seguimiento">
@@ -313,7 +312,7 @@
               <iframe width="560" height="315" src="https://www.youtube.com/embed/VLubJk9k67U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="col-12 section-tutoriales__cta d-flex align-items-center justify-content-center mt-4 mb-3 mb-lg-5">
-              <a href="http://google.com">MÁS TUTORIALES</a>
+              <a target="_blank" href="https://www.youtube.com/channel/UCJYQGToacu-1gnjwvOBXdbg">MÁS TUTORIALES</a>
             </div>
           </div>
         </div>
@@ -397,6 +396,7 @@
           <img src="img/divisor5.svg" alt="" />
         </picture>
       </div>
+      <a id="contacto"></a>
       <section class="section-contacto">
         <div class="container">
           <div class="row">
@@ -435,21 +435,21 @@
           <div class="d-md-flex order-md-2">
             <div class="container footer__container--1">
               <div class="row d-md-flex justify-content-md-center">
-                <div class="col-12 col-md-2 footer__link">
+                <!-- <div class="col-12 col-md-2 footer__link">
                   <a href="#">FAQ'S</a>
+                </div> -->
+                <div class="col-12 col-md-2 footer__link">
+                  <a target="_blank" href="/docs/terminos.pdf">Condiciones del servicio</a>
                 </div>
                 <div class="col-12 col-md-2 footer__link">
-                  <a href="#">Condiciones del servicio</a>
+                  <a target="_blank" href="/docs/guia-tamaños.pdf">Tamaños de envíos</a>
                 </div>
-                <div class="col-12 col-md-2 footer__link">
-                  <a href="#">Tamaños de envíos</a>
-                </div>
-                <div class="col-12 col-md-2 footer__link">
+                <!-- <div class="col-12 col-md-2 footer__link">
                   <a href="#">Integraciones</a>
-                </div>
-                <div class="col-12 col-md-3 footer__link">
+                </div> -->
+                <!-- <div class="col-12 col-md-3 footer__link">
                   <a href="#">Como funciona el servicio</a>
-                </div>
+                </div> -->
               </div>
             </div>
           </div>
@@ -457,13 +457,13 @@
             <div class="container footer__container--2">
               <div class="row d-md-flex justify-content-md-center">
                 <div class="col-12 col-md-3 footer__link">
-                  <a href="#">COBERTURA</a>
+                  <a href="#cobertura">COBERTURA</a>
                 </div>
                 <div class="col-12 col-md-3 footer__link">
-                  <a href="https://forms.gle/Wru2raz4ZTXxBVQR6">REGISTRATE</a>
+                  <a target="_blank" href="https://forms.gle/Wru2raz4ZTXxBVQR6">REGISTRATE</a>
                 </div>
                 <div class="col-12 col-md-3 footer__link">
-                  <a href="#">SEGUIMIENTO</a>
+                  <a href="#seguimiento">SEGUIMIENTO</a>
                 </div>
               </div>
             </div>
@@ -526,11 +526,15 @@
         </div>  
       </footer>
     </main>
-    <footer></footer>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <!-- Splide slider -->
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script src="js/marcas.js"></script>
     <script src="js/splide.js"></script>
 </body>
 </html>

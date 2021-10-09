@@ -46,41 +46,7 @@
     .section-cobertura-container {
         background: $violeta;
     }
-    .divisor {
-        position:relative;
-        width:100%;
-        height:36px;
-        img {
-            position:absolute;
-            top: -7px;
-            left: 0;
-            right: 0;
-        }
-    }
-    .divisor-1 {
-        position:relative;
-        height:21px;
-        width:100%;
-        img {
-            position:absolute;
-            top: 0px;
-            left: 0;
-            right: 0;  
-            width:100%;
-        }
-    }
-    .divisor-6 {
-        position:relative;
-        height:21px;
-        width:100%;
-        img {
-            position:absolute;
-            top: 0px;
-            left: 0;
-            right: 0;  
-            width:100%;
-        }
-    }
+    
     .form-seguimiento {
         display:flex;
         flex-direction: column;
@@ -124,11 +90,25 @@
                 font-family: 'Fredoka One', cursive;
                 list-style-type: none;
                 font-size: 0.85em;
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                    &:hover {
+                        color: $violeta;
+                    }
+                }
             }
         }
         &__boton-seguimiento {
             font-size: 10px;
             text-align:center;
+            span {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+        &__link {
+            text-decoration: none;
         }
     }
 }

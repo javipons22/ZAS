@@ -47,6 +47,8 @@
     right:0;
     background: $naranja;
     color:white;
+    -webkit-box-shadow: 0px 8px 17px -7px rgba(0,0,0,0.72); 
+    box-shadow: 0px 8px 17px -7px rgba(0,0,0,0.72);
     &__menu--mobile {
         menu {
             list-style-type: none;
@@ -225,6 +227,7 @@
             background: $naranja;
             padding:12px;
             border-radius: 50%;
+            cursor: pointer;
         }
         &__input {
             text-align: center;
@@ -464,5 +467,12 @@
                 width: 145px;
             }
         }
+    }
+}
+.splide__slide {
+    width:100%;
+    img {
+        object-fit: contain;
+        width:100%;
     }
 }

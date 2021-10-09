@@ -82,7 +82,9 @@ table {
   left: 0;
   right: 0;
   background: #E55F1F;
-  color: white; }
+  color: white;
+  -webkit-box-shadow: 0px 8px 17px -7px rgba(0, 0, 0, 0.72);
+  box-shadow: 0px 8px 17px -7px rgba(0, 0, 0, 0.72); }
   .main-header__menu--mobile menu {
     list-style-type: none; }
   .main-header__logo img {
@@ -208,7 +210,8 @@ table {
   .seccion-seguimiento .form-seguimiento__boton {
     background: #E55F1F;
     padding: 12px;
-    border-radius: 50%; }
+    border-radius: 50%;
+    cursor: pointer; }
   .seccion-seguimiento .form-seguimiento__input {
     text-align: center;
     vertical-align: center;
@@ -393,6 +396,12 @@ table {
   .footer__info--logo img {
     width: 145px; }
 
+.splide__slide {
+  width: 100%; }
+  .splide__slide img {
+    object-fit: contain;
+    width: 100%; }
+
 @media (max-width: 500px) {
   .container {
     max-width: 90%; } }
@@ -486,38 +495,6 @@ table {
   .section-cobertura-container {
     background: #683F61; }
 
-  .divisor {
-    position: relative;
-    width: 100%;
-    height: 36px; }
-    .divisor img {
-      position: absolute;
-      top: -7px;
-      left: 0;
-      right: 0; }
-
-  .divisor-1 {
-    position: relative;
-    height: 21px;
-    width: 100%; }
-    .divisor-1 img {
-      position: absolute;
-      top: 0px;
-      left: 0;
-      right: 0;
-      width: 100%; }
-
-  .divisor-6 {
-    position: relative;
-    height: 21px;
-    width: 100%; }
-    .divisor-6 img {
-      position: absolute;
-      top: 0px;
-      left: 0;
-      right: 0;
-      width: 100%; }
-
   .form-seguimiento {
     display: flex;
     flex-direction: column;
@@ -547,29 +524,24 @@ table {
     font-family: 'Fredoka One', cursive;
     list-style-type: none;
     font-size: 0.85em; }
+    .main-header__menu--laptop menu a {
+      color: #fff;
+      text-decoration: none; }
+      .main-header__menu--laptop menu a:hover {
+        color: #683F61; }
   .main-header__boton-seguimiento {
     font-size: 10px;
-    text-align: center; } }
+    text-align: center; }
+    .main-header__boton-seguimiento span {
+      color: #fff;
+      text-decoration: none; }
+  .main-header__link {
+    text-decoration: none; } }
 @media (min-width: 1200px) {
   .pasos__cta {
     font-size: 1em; }
   .pasos__descripcion--laptop h2 {
     font-size: 1em; }
-
-  .divisor {
-    position: relative;
-    height: 35px;
-    width: 100%; }
-    .divisor img {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      top: 7px;
-      width: 100%; }
-
-  .divisor-2 img, .divisor-4 img, .divisor-5 img, .divisor-7 img {
-    top: -5px; }
 
   .section-video {
     padding: 35px 0; }
@@ -591,21 +563,6 @@ table {
     font-size: 1.1em;
     line-height: 1.2em; } }
 @media (min-width: 1441px) {
-  .divisor {
-    position: relative;
-    height: 55px;
-    width: 100%; }
-    .divisor img {
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      top: 7px;
-      width: 100%; }
-
-  .divisor-2 img, .divisor-4 img, .divisor-5 img, .divisor-7 img {
-    top: -5px; }
-
   .section-cobertura__img img {
     width: 60%; }
 
