@@ -45,6 +45,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+body {
+  overflow-x: hidden; }
+
 .splide__track {
   margin-top: 0.65em;
   padding-bottom: 2.5em; }
@@ -176,6 +179,8 @@ table {
     font-size: 1em;
     line-height: 17px;
     text-align: center; }
+    .pasos__cta a:hover {
+      color: #683F61; }
 
 .texto-seccion-presentacion {
   font-family: 'Montserrat', sans-serif;
@@ -226,6 +231,7 @@ table {
     margin: 7px 0; }
 
 .seccion-seguimiento {
+  position: relative;
   background-image: linear-gradient(0deg, rgba(69, 42, 64, 0.8), rgba(69, 42, 64, 0.8)), url("./img/fondo.jpg");
   color: #fff; }
   .seccion-seguimiento .titulo-seccion {
@@ -439,6 +445,19 @@ table {
   .float-whatsapp img {
     width: 50px;
     height: 50px; }
+
+.anchor-seguimiento-mobile, .anchor-quienes-mobile, .anchor-contacto-mobile, .anchor-cobertura-mobile, .anchor-quienes-tablet {
+  position: absolute;
+  top: -150px;
+  height: 150px;
+  width: 100%; }
+
+.anchor-cobertura-mobile {
+  height: 10px;
+  top: -75px; }
+
+.section-quienes-somos, .section-contacto, .section-cobertura, .section-video {
+  position: relative; }
 
 @media (max-width: 500px) {
   .container {
